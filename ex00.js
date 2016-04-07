@@ -1,5 +1,5 @@
 (function(env) {
-
+  console.log('Tableau loaded');
   function Tableau (tableName) {
     
     // private properties

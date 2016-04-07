@@ -1,4 +1,4 @@
-(function(env) {
+!function(env) {
   console.log('Tableau loaded');
   function Tableau (tableName) {
     
@@ -29,5 +29,4 @@
   };
   env.Tableau = {
     create : function (tableName) {return new Tableau(tableName);}
-  }
-)()
+  }(this);
